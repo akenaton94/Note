@@ -6,5 +6,6 @@
 			<?= $this->Form->input('email'); ?>
 			<?= $this->Form->input('password', array('type' => 'password')); ?>
 			<?= $this->Form->submit('Entrar', array('class' => 'button')); ?>
+            <?= $this->Html->link('Registrarse', ['controller' => 'users', 'action' => 'register']); ?>
 		<?= $this->Form->end(); ?>
 </div></section>

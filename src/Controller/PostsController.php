@@ -11,11 +11,13 @@ use App\Controller\AppController;
 class PostsController extends AppController
 {
 
+
     /**
      * Index method
      *
      * @return void
      */
+ 
     public function index()
     {
         $this->paginate = [

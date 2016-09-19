@@ -6,7 +6,7 @@
         <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="posts form large-9 medium-8 columns content">
+<div class="posts form large-6 medium-8 columns content">
     <?= $this->Form->create($post) ?>
     <fieldset>
         <legend><?= __('Add Post') ?></legend>

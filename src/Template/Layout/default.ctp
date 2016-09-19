@@ -39,9 +39,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     else { ?>
     <?php if ($this->request->here == '/note/users/login') {} else { ?>
       <nav class="top-bar expanded" data-topbar role="navigation">
-        <ul class="title-area large-3 medium-4 columns">
+        <ul class="title-area large-10 medium-4 columns">
             <li class="name">
-                <h1><a href=""><?= $this->fetch('title') ?></a></h1>
+                <h1><a href=""><?= $this->Html->image('logo_page.png', array('alt' => 'Logo')); ?></a></h1>
             </li>
         </ul>
         <section class="top-bar-section">

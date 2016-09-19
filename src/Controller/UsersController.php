@@ -142,3 +142,8 @@ class UsersController extends AppController
         $this->Auth->allow(['register']);
     }
 }
+
+
+// Get user info
+
+
